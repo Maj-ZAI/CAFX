@@ -1,0 +1,48 @@
+{
+  "cafes": [
+    {
+      "id": 1,
+      "name": "Caf\u00e9 Central",
+      "location": "Paris",
+      "revenue": 1540,
+      "costs": 420
+    },
+    {
+      "id": 2,
+      "name": "Bistro Beans",
+      "location": "Lyon",
+      "revenue": 980,
+      "costs": 310
+    }
+  ],
+  "suppliers": [
+    {
+      "id": 1,
+      "name": "Supplier A",
+      "category": "Coffee",
+      "price_index": 1.0
+    },
+    {
+      "id": 2,
+      "name": "Supplier B",
+      "category": "Milk",
+      "price_index": 1.1
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "name": "Arabica Beans",
+      "qty": 2,
+      "unit": "kg",
+      "threshold": 3
+    },
+    {
+      "id": 2,
+      "name": "Milk 1L",
+      "qty": 25,
+      "unit": "L",
+      "threshold": 10
+    }
+  ]
+}
